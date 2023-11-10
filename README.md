@@ -6,6 +6,8 @@ This is a tool for editors that removes silent portions and adds automatic capti
 
 Run editorGUI.py, which programmatically references the other files.
 
+**OR if you want to run the argparse files individually**
+
 ## Dependencies
 `pip install -r requirements.txt`
 - Python 3.5+
