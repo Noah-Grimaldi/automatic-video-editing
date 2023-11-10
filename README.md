@@ -1,6 +1,6 @@
-# `video-remove-silence`
+# `automaticVideoEditing`
 
-Tool for removing silence from video files.
+This is a tool for editors that removes silent portions and adds automatic captions to your video file with a simple GUI.
 
 ## Usage
 
