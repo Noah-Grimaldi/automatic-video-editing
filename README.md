@@ -13,5 +13,5 @@ video-remove-silence some_file.mp4
 - Python 3.5+
 - FFmpeg
 
-## Faster Whisper Installation
+## faster-whisper Installation
 pip install git+https://github.com/Noah-Grimaldi/faster-whisper.git
