@@ -4,9 +4,7 @@ Tool for removing silence from video files.
 
 ## Usage
 
-```
-video-remove-silence some_file.mp4
-```
+Run editorGUI.py, which programmatically references the other files.
 
 ## Dependencies
 `pip install -r requirements.txt`
