@@ -9,7 +9,7 @@ video-remove-silence some_file.mp4
 ```
 
 ## Dependencies
-
+- 'pip install -r requirements.txt'
 - Python 3.5+
 - FFmpeg
 
