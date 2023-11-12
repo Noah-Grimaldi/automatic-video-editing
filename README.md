@@ -4,7 +4,7 @@ This is a tool for editors that removes silent portions and adds automatic capti
 
 ## Usage
 
-Run editorGUI.py, which programmatically references the other files or [download the EXE](https://github.com/Noah-Grimaldi/automatic-video-editing/releases/download/pyinstaller/automatic-video-editing.zip).
+Run editorGUI.py, which programmatically references the other files or [download the EXE](https://github.com/Noah-Grimaldi/automatic-video-editing/releases/download/pyinstaller/video-editing-release.zip).
 
 **If you want to run the argparse files individually:**
 
