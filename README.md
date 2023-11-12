@@ -29,8 +29,8 @@ model_size can be tiny, base, small, medium, large; text_color (e.g. white); fon
 - Python 3.5+
 - FFmpeg
 
-## Platform Support (Windows/Linux/Mac)
-This current program only works for windows 64-bit users, if you're on a different platform you need to change magick.exe to your version of magick.exe which you can [download here](https://imagemagick.org/script/download.php).
+## Platform Support 
+Windows/Mac/Linux
 
 ## Credits
 Credit to @excitoon for [video-remove-silence](https://github.com/excitoon/video-remove-silence)
