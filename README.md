@@ -2,6 +2,9 @@
 
 This is a tool for editors that removes silent portions and adds automatic captions to your video file with a simple GUI.
 
+## Demo
+[example](example.gif)
+
 ## Usage
 
 Run editorGUI.py, which programmatically references the other files or [download the EXE](https://github.com/Noah-Grimaldi/automatic-video-editing/releases/download/pyinstaller/automatic-video-editing.exe).
