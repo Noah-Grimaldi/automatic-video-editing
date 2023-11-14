@@ -59,16 +59,17 @@ if arguments[1]:
     segments, info = model.transcribe(audio_file_path, beam_size=5, word_timestamps=True)
     os.makedirs("output_images", exist_ok=True)
     text_clips = []
-    for word in info[0][0]:
-        start_time = word.start
-        end_time = word.end
-        word_text = re.sub(r'\W+', '', word.word)
-        text_image_path = f"output_images/{word_text}.png"
-        create_text_image(word_text, text_image_path, arguments[5], float(arguments[7]), arguments[4])
+    for inner_list in info.word_info:
+        for word in inner_list:
+            start_time = word.start
+            end_time = word.end
+            word_text = re.sub(r'\W+', '', word.word)
+            text_image_path = f"output_images/{word_text}.png"
+            create_text_image(word_text, text_image_path, arguments[5], float(arguments[7]), arguments[4])
 
-        image_clip = ImageClip(text_image_path, duration=end_time - start_time)
-        text_clip = image_clip.set_start(start_time).set_end(end_time).set_position(ast.literal_eval(arguments[6]))
-        text_clips.append(text_clip)
+            image_clip = ImageClip(text_image_path, duration=end_time - start_time)
+            text_clip = image_clip.set_start(start_time).set_end(end_time).set_position(ast.literal_eval(arguments[6]))
+            text_clips.append(text_clip)
     # Composite the video with the text clips
     video_with_text = CompositeVideoClip([video_clip] + text_clips)
     # default video path name for output of export
