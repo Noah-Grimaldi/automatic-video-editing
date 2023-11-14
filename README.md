@@ -3,7 +3,7 @@
 This is a tool for editors that removes silent portions and adds automatic captions to your video file with a simple GUI.
 
 ## Demo
-[example](example.gif)
+(example.gif)
 
 ## Usage
 
