@@ -1,4 +1,4 @@
-[![GitHub Repo Views](https://api.freemotion-llc.com/api/github/repo-views?user=Noah-Grimaldi&repo=your-repository)](https://github.com/Noah-Grimaldi/your-repository/traffic)
+[![GitHub Repo Views](https://api.freemotion-llc.com/api/github/repo-views?user=Noah-Grimaldi&repo=automatic-video-editing)](https://github.com/Noah-Grimaldi/automatic-video-editing/traffic)
 # `automaticVideoEditing`
 
 This is a tool for editors that removes silent portions and adds automatic captions to your video file with a simple GUI.
