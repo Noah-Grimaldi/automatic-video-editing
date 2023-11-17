@@ -29,8 +29,8 @@ model_size can be tiny, base, small, medium, large; text_color (e.g. white); fon
 
 ## Dependencies
 `pip install -r requirements.txt`
-- Python 3.5+
-- FFmpeg
+- Python 3.5+ download(s): [Windows](https://www.python.org/ftp/python/3.12.0/python-3.12.0-amd64.exe)/[Mac](https://www.python.org/ftp/python/3.12.0/python-3.12.0-macos11.pkg)/[Linux](https://www.python.org/ftp/python/3.12.0/Python-3.12.0.tar.xz)
+- FFmpeg download(s): [Windows](https://community.chocolatey.org/packages/ffmpeg)/[Mac](https://formulae.brew.sh/formula/ffmpeg)/[Linux](sudo apt install ffmpeg)
 
 ## Platform Support 
 Windows/Mac/Linux
