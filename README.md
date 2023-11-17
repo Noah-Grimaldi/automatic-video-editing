@@ -1,4 +1,4 @@
-![](https://komarev.com/ghpvc/?username=Noah-Grimaldi&label=Repository+Views)
+[![GitHub Repo Views](https://api.freemotion-llc.com/api/github/repo-views?user=Noah-Grimaldi&repo=your-repository)](https://github.com/Noah-Grimaldi/your-repository/traffic)
 # `automaticVideoEditing`
 
 This is a tool for editors that removes silent portions and adds automatic captions to your video file with a simple GUI.
