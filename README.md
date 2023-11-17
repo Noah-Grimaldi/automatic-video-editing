@@ -1,3 +1,4 @@
+![](https://komarev.com/ghpvc/?username=Noah-Grimaldi&label=Repository+Views)
 # `automaticVideoEditing`
 
 This is a tool for editors that removes silent portions and adds automatic captions to your video file with a simple GUI.
